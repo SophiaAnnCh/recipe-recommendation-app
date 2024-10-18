@@ -1,0 +1,69 @@
+.body_register{
+  font-family: Arial, sans-serif;
+  background: url('images/cook_bg.jpg');
+  background-position: cover;
+  background-size: 200px ;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+} 
+
+.heading {
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 25px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signup-card {
+  color: white;
+  width: 200px; /* Adjust the width */
+  height: 200px;
+  padding: 20px; /* Adjust the padding for a compact look */
+  margin: 50px auto; /* Center the box and add some space around */
+  border-radius: 15px;
+}
+
+h4 {
+  margin-top: 140px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 7px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: white;
+  color: #9e3293;
+  padding: 10px;
+  border-radius: 25px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f2f2f2;
+}
+
