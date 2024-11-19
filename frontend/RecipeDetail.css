@@ -1,0 +1,89 @@
+.recipe-detail-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-detail {
+  background-color: var(--text-light);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: var(--box-shadow);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--accent-pink);
+  cursor: pointer;
+}
+
+.recipe-detail h2 {
+  color: var(--accent-pink);
+  margin-bottom: 15px;
+}
+
+.recipe-detail ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.recipe-detail p {
+  margin-bottom: 10px;
+}
+
+.meal-plan {
+  background-color: var(--accent-pink);
+  color: var(--text-light);
+  border: none;
+  padding: 10px 15px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.reviews h3, .review-form h3 {
+  color: var(--accent-pink);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.reviews ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reviews li {
+  background-color: var(--background-light);
+  border-radius: var(--border-radius);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.review-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-form label {
+  margin-bottom: 5px;
+}
+
+.review-form select, .review-form textarea {
+  margin-bottom: 10px;
+}

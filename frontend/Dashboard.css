@@ -1,0 +1,66 @@
+.dashboard {
+  background-color: var(--background-light);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  background-color: var(--text-light);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+}
+
+.search-box input {
+  border: none;
+  padding: 10px 15px;
+  flex-grow: 1;
+}
+
+.search-box button {
+  background-color: var(--accent-pink);
+  color: var(--text-light);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.container nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.container nav ul li {
+  margin: 0 10px;
+}
+
+.container nav ul li a {
+  color: var(--accent-pink);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.add {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 3rem;
+  color: var(--accent-pink);
+  background-color: var(--text-light);
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.btn logout-btn {
+  color:blue
+}

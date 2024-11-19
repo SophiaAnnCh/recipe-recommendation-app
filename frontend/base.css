@@ -1,0 +1,57 @@
+:root {
+    --primary-pink: #FFC0CB;
+    --secondary-pink: #FFB6C1;
+    --accent-pink: #FF69B4;
+    --text-dark: #4A4A4A;
+    --text-light: #FFFFFF;
+    --background-light: #FFF0F5;
+    --border-radius: 15px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-light);
+    color: var(--text-dark);
+    line-height: 1.6;
+  }
+  
+  button {
+    background-color: var(--accent-pink);
+    color: var(--text-light);
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-pink);
+  }
+  
+  input, textarea {
+    border: 2px solid var(--primary-pink);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--accent-pink);
+  }
+  
+  .decorative-border {
+    border: 2px solid var(--primary-pink);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .decorative-background {
+    background-color: var(--secondary-pink);
+    border-radius: var(--border-radius);
+    padding: 15px;
+    margin-bottom: 15px;
+  }

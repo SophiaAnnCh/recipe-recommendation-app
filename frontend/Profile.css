@@ -1,0 +1,124 @@
+:root {
+  --primary-color: #4a90e2;
+  --secondary-color: #f39c12;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --border-color: #ddd;
+  --error-color: #e74c3c;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+.profile {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-details, .user-reviews {
+  margin-bottom: 2rem;
+}
+
+h2, h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+.user-reviews ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-reviews li {
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.update-profile-form {
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.update-profile-form h3 {
+  margin-top: 0;
+}
+
+.update-profile-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.update-profile-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+.update-profile-form button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-profile-form button:hover {
+  background-color: #3a7bd5;
+}
+
+.update-profile-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.delete-account-button {
+  background-color: var(--error-color) !important;
+  margin-left: 1rem;
+}
+
+.delete-account-button:hover {
+  background-color: #c0392b !important;
+}
+
+@media (max-width: 600px) {
+  .profile {
+    padding: 1rem;
+  }
+
+  .update-profile-form {
+    padding: 0.5rem;
+  }
+
+  .update-profile-form button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .delete-account-button {
+    margin-left: 0;
+  }
+}
